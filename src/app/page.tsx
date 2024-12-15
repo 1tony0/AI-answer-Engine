@@ -10,7 +10,7 @@ type Message = {
 export default function Home() {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState<Message[]>([
-    { role: "ai", content: "Hello! How can I help you today?" },
+    { role: "ai", content: "Hey Neo, how can I help you today?" },
   ]);
   const [isLoading, setIsLoading] = useState(false);
 
